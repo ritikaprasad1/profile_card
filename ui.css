@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Marcellus', serif;
+}
+.conatainer{
+    background-color:rgb(6, 70, 70);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+
+
+}
+.box{
+    background-color: bisque;
+    padding: 20px;
+    height: 450px;
+    width: 350px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 1px 1px 33px -10px rgba(0, 0, 0, 0.75);
+}
+.box img{
+    height: 180px;
+}
+.box span{
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box button{
+    padding: 10px 50px;
+    
+    border-radius: 20px;
+    background-color:rgb(6, 70, 70);
+    color: white;
+    font-size: 20px;
+    transition: all 0.3 ease-in-out;
+    
+    
+}
+button:hover{
+    background-color: rgb(13, 116, 116);
+    color: bisque;
+    box-shadow: 0px 0px 33px -10px rgb(6, 70, 70);
+}
+i{  
+    padding: 30px;
+    font-size: 25px;
+    transition: all 0.3 ease-in-out;
+    
+}
+i:hover{
+    color: rgb(6, 70, 70);
+    font-size: 26px;
+}
+.text{
+    
+    position: absolute;
+    top: 200px;
+    margin-bottom: px;
+
+    text-align: center;
+}
+.text h1{
+    font-size: 35px;
+}
+.text h3{
+    font-size: 22px;
+    
+}
